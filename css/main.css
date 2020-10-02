@@ -1,0 +1,359 @@
+body, p, h1, h2, h3, h4, h5, h6, div, p, a, li {
+    font-family: 'Open Sans', sans-serif;
+    color: #2b303b;
+    background-color: #f1f1f1;
+}
+
+p {
+  font-size:14px;
+  line-height:28px;
+  
+}
+
+img {
+  max-width: 100% !important;
+}
+
+/*
+================================
+Navigation
+================================
+*/
+
+.header-top-area {
+  padding-top: 20px;
+}
+.custom-navigation-style {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: none !important;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.custom-navigation-style div#main-menu-collapse > ul > li > a {
+  font-weight: normal;
+  text-shadow: 0 0;
+  text-transform: uppercase;
+}
+.custom-navigation-style div#main-menu-collapse > ul > li > a:hover {
+  color:#3DD2AE
+}
+.logo {
+  padding: 0 ;
+}  
+.logo img {
+  max-height: 70px;
+}
+
+.topleft1 {
+    float: left;
+    padding-top: 36px;
+    padding-right: 10px;
+    padding-bottom: 58px;
+}
+.picture {
+    float: left;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    width: 99%;
+}
+.message {
+    display: block;
+    float: left;
+    width: 98%;
+    padding-left: 12px;
+}
+.president-area {
+    float: left;
+    width: 40%;
+    padding-right: 10px;
+}
+.secretary-area {
+    float: left;
+    width: 40%;
+    padding-right: 10px;
+}
+.notices-area {
+    float: left;
+    width: 20%;
+    padding-right: 4px;
+}
+.president {
+    background: #ac82b7;
+    display: block;
+    padding: 2px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    /* border: #DCC; */
+}
+.president-message {
+    background: #e6e6e6;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 2px;
+    text-align: justify;
+    padding-bottom: 64px;
+}
+.secretary {
+    background: #ac82b7;
+    display: block;
+    padding: 2px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    /* border: #DCC; */
+}
+.secretary-message {
+    background: #e6e6e6;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 2px;
+    text-align: justify;
+    padding-bottom: 24px;
+}
+.notices-title {
+    background: #ac82b7;
+    display: block;
+    padding: 2px;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    /* border: #DCC; */
+}
+.notices {
+    background: #e6e6e6;
+    padding: 2px;
+    border-radius: 5px;
+    margin: 2px;
+    text-align: justify;
+    padding-bottom: 94px;
+    padding-right: 15px;
+}
+
+/* Committee Style */
+.committee-heading {
+    float: left;
+    width: 1095px;
+    /* font-size: 50px; */
+    background-color: #dddd;
+    border: solid #dddd;
+    text-align: center;
+    padding-left: 20px;
+    margin-left: 19px;
+    margin-top: 27px;
+    /* margin-right: 12px; */
+}
+.committee-heading p {
+    float: left;
+    font-size: 35px;
+    color: #594e7b;
+    background-color: #dddd;
+    padding: 7px;
+    /* text-align: center; */
+}
+.committee-name {
+    /* background-color: #e8e8e8; */
+    float: left;
+    padding-left: 83px;
+    padding-top: 48px;
+    padding-bottom: 20px;
+    /* padding-right: 15px; */
+    width: 40%;
+    font-size: 30px;
+    color: #028aa9;
+    height: 138px;
+}
+.committee-area {
+    margin: 20px;
+    float: left;
+    display: block;
+    width: 1095px;
+    background-color: #ececec;
+    padding: 5px;
+    /* border: #429a8a; */
+    /* border: solid #f1ebeb; */
+    padding-right: 13px;
+}
+.committee {
+    margin: 20px;
+    float: left;
+    display: block;
+    width: 100%;
+    /* background-color: #ececec; */
+    padding: 5px;
+    /* border: #429a8a; */
+    border: solid #dddddd52;
+}
+.committee-details {
+    float: left;
+    padding-left: 60px;
+    padding-top: 5px;
+}
+.committee-details img {
+    float: left;
+    padding: 5px;
+    width: 155px;
+    height: 133px;
+}
+.committee-details p {
+    font-size: 15px;
+    line-height: 23px;
+    padding: 15px;
+    margin: 3px;
+    text-align: justify;
+    float: left;
+}
+
+/* Member Style */
+.member-heading {
+    float: left;
+    width: 95%;
+    /* font-size: 50px; */
+    background-color: #dddd;
+    border: solid #dddd;
+    text-align: center;
+    padding-left: 20px;
+    margin-left: 19px;
+    margin-top: 27px;
+    /* margin-right: 12px; */
+}
+.member-heading p {
+    float: left;
+    font-size: 35px;
+    color: #594e7b;
+    background-color: #dddd;
+    padding: 7px;
+    /* text-align: center; */
+}
+.member-area {
+    margin: 20px;
+    float: left;
+    display: block;
+    width: 1095px;
+    background-color: #ececec;
+    padding: 10px;
+    /* border: #429a8a; */
+    /* border: solid #f1ebeb; */
+}
+.member {
+    margin: 20px;
+    float: left;
+    display: block;
+    width: 46%;
+    /* background-color: #ececec; */
+    padding: 10px;
+    /* border: #429a8a; */
+    border: solid #dddddd52;
+}
+.member-details {
+    float: left;
+    padding-left: 18px;
+    padding-top: 1px;
+}
+.member-details img {
+    float: left;
+    padding: 5px;
+    width: 210px;
+    height: 133px;
+}
+.member-details p {
+    font-size: 14px;
+    line-height: 23px;
+    padding: 15px;
+    margin: 3px;
+    text-align: justify;
+    float: left;
+}
+
+/* Constitution Page */
+
+.constitution {
+    width: 1095px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+}
+.constitution p{
+    font-size: 15px;
+    line-height: 23px;
+    padding: 15px;
+    margin: 3px;
+    text-align: justify;
+    float: left;
+}
+
+/* Notice Style */
+
+.notice-heading {
+    float: left;
+    width: 1095px;
+    /* font-size: 50px; */
+    background-color: #dddd;
+    border: solid #dddd;
+    text-align: center;
+    padding-left: 20px;
+    margin-left: 19px;
+    margin-top: 27px;
+    /* margin-right: 12px; */
+}
+.notice-heading p {
+    float: left;
+    font-size: 35px;
+    color: #594e7b;
+    background-color: #dddd;
+    padding: 7px;
+    /* text-align: center; */
+}
+.notice-area {
+    margin: 20px;
+    float: left;
+    display: block;
+    width: 1095px;
+    background-color: #ececec;
+    padding: 10px;
+    /* border: #429a8a; */
+    /* border: solid #f1ebeb; */
+    padding-right: 54px;
+}
+.notice {
+    margin: 20px;
+    float: left;
+    display: block;
+    width: 100%;
+    /* background-color: #ececec; */
+    padding: 10px;
+    /* border: #429a8a; */
+    border: solid #dddddd52;
+}
+.notice-details {
+    float: left;
+    padding-left: 0px;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.finance-heading {
+    float: left;
+    /* font-size: 41px; */
+    background-color: #dddd;
+    border: solid #dddd;
+    text-align: center;
+    /* margin-left: 12px; */
+    margin-top: 27px;
+    margin-bottom: 7px;
+    padding-top: 9px;
+    /* padding: 0px; */
+}
+    /* margin-right: 12px; */
+
+.finance-heading p {
+    float: left;
+    font-size: 35px;
+    color: #594e7b;
+    background-color: #dddd;
+    padding: 2px;
+    /* text-align: center; */
+}
