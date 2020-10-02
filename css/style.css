@@ -267,7 +267,9 @@ a.text-customcolor img{
 }
 
 /* ------- Notice --------- */
-
+.notice {
+    margin-bottom: 20px;
+}
 .notice-section{
     margin-top: 30px;
 }
