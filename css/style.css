@@ -228,3 +228,40 @@ a.text-customcolor img{
     /* display: block; */
     height: 300px;
 }
+
+/* --------- Committee 2019 started -------- */
+
+.committee {
+    background: #cdedea;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.committee-head h2 {
+    background: rgb(169,69,214);
+    background: linear-gradient(0deg, rgba(169,69,214,0.9976365546218487) 7%, rgba(9,9,121,0.8239670868347339) 54%, rgba(0,212,255,1) 90%);
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    font: white;
+    color: white;
+}
+.committee-single{
+    float: left;
+}
+
+.committee-single img {
+    width: 90%;
+    border: 5px solid #401f1f;
+    /* display: block; */
+    height: 350px;
+    border-radius: 30px;
+}
+
+.committee-single h1 {
+    background: #401f1f;
+    color: white;
+    border-radius: 40px;
+    padding: 5px;
+    margin: 10px 20px;
+}
