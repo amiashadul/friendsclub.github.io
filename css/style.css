@@ -273,10 +273,22 @@ a.text-customcolor img{
 .notice-section{
     margin-top: 30px;
 }
+.notice-contact{
+    margin-bottom: 30px;
+}
 .list-custom{
     background: #585897;
     color: white;
     font-size: 25px;
     padding: 10px;
     text-align: center;
+}
+
+/* --------- Contact start ------- */
+
+.contact-section{
+    margin-top: 30px;
+}
+form {
+    margin-top: 20px;
 }
