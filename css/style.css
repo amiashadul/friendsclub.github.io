@@ -265,3 +265,16 @@ a.text-customcolor img{
     padding: 5px;
     margin: 10px 20px;
 }
+
+/* ------- Notice --------- */
+
+.notice-section{
+    margin-top: 30px;
+}
+.list-custom{
+    background: #585897;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    text-align: center;
+}
