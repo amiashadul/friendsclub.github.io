@@ -11,7 +11,8 @@ body{
 
 .bg-customcolor{
 	background-color:#0e487a9e !important;
-	border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 10px 10px;
+    z-index: 999;
 }
 a.text-customcolor img{
 	max-height: 50px;
@@ -31,9 +32,6 @@ a.text-customcolor img{
 .navbar-brand h1{
     font-family: 'Fredoka One', cursive;
     font-size: 40px;
-}
-.header{
-    z-index: 99;
 }
 .navbar img{
 	height: 70px;
@@ -97,7 +95,8 @@ a.text-customcolor img{
     line-height: 37px;
 }
 .hlogo{
-	float: left;
+    float: left;
+    padding: 20px;
 }
 .hlogo img{
 	padding: 5px;
