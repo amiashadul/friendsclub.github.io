@@ -111,45 +111,39 @@ a.text-customcolor img{
     background-color: #d8edef;
     width: 100%;
 }
-.tinfo2{
+.info2 h1{
 	text-shadow: 1px 2px 2px #7E33FF;
-    font-size: 25px;
+    font-size: 35px;
     font-family: 'Aladin', cursive;
     float: left;
     text-align: center;
     display: block;
     padding-top: 30px;
 }
-.message {
+.infobox {
+    padding: 25px;
+    margin-top: 5px;
     float: left;
-    border-radius: 10px;
 }
-.message1{
-	float: left;
-	border-radius: 10px;
+.infobox img {
+    border: 5px solid white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    z-index: 999;
+    position: relative;
 }
 
-.message-img{
-	position: absolute;
-    z-index: 999;
-}
-.message-img img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: 2px solid white;
-    background-color: white;
-}
-.message1info {
+.message {
     background-color: #b3cfd2;
     padding: 15px;
-    margin: 50px 10px 40px 10px;
     position: relative;
     padding-top: 35px;
     height: 600px;
     border-radius: 10px;
+    margin-top: -45px;
 }
-.message1info h2 {
+.message h2 {
     font-size: 24px;
     text-align: center;
     font-family: 'Sofia', cursive;
@@ -157,7 +151,7 @@ a.text-customcolor img{
     padding-top: 50px;
     padding-bottom: 10px;
 }
-.message1info h3 {
+.message h3 {
     text-align: center;
     font-family: 'Sofia', cursive;
     height: 32px;
@@ -167,13 +161,12 @@ a.text-customcolor img{
     color: white;
     border-radius: 20px;
 }
-.message1info p{
+.message p{
     font-size: 17px;
     line-height: 30px;
     text-align: justify;
     padding-top: 40px;
 }
-
 
 .footer {
     background-color: #4f525f;
