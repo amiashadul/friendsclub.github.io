@@ -193,7 +193,7 @@ a.text-customcolor img{
 .constitution {
     text-align: justify;
     line-height: 35px;
-    background-color: #cdedea;
+    background-color: #cdedea59;
     padding: 30px 15px;
     margin-top: 30px;
     border-radius: 10px;
@@ -202,7 +202,7 @@ a.text-customcolor img{
 /* ---------- Member Section --------- */
 
 .member {
-    background: #cdedea;
+    background: #cdedea59;
     margin-top: 40px;
     border-radius: 10px;
 }
@@ -230,7 +230,7 @@ a.text-customcolor img{
 /* --------- Committee 2019 started -------- */
 
 .committee {
-    background: #cdedea;
+    background: #cdedea59;
     margin-top: 40px;
     border-radius: 10px;
 }
